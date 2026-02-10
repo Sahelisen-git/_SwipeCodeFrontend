@@ -29,11 +29,11 @@ const Feed = () => {
   const currentIndex = totalUsers - (feed?.length || 0) + 1;
 
   return (
-    <div className="flex-1 flex flex-col items-center justify-start py-4 px-2 min-h-screen bg-gray-950 pb-20">
+    <div className="flex-1 flex flex-col items-center justify-start py-4 px-3 sm:px-4 min-h-screen bg-gray-950 pb-24 md:pb-20">
       {/* Header */}
-      <div className="text-center mb-6">
-        <h1 className="text-3xl font-bold text-white">Discover Developers</h1>
-        <p className="text-yellow-500 mt-2">Find your next collaborator or coding buddy</p>
+      <div className="text-center mb-4 sm:mb-6">
+        <h1 className="text-2xl sm:text-3xl font-bold text-white">Discover Developers</h1>
+        <p className="text-yellow-500 mt-1 sm:mt-2 text-sm sm:text-base">Find your next collaborator or coding buddy</p>
       </div>
 
       {/* User Card */}

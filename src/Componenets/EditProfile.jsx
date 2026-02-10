@@ -89,10 +89,10 @@ const EditProfile = ({user}) => {
             };
   return (
     <>
-    <div className='flex justify-center items-center min-h-screen bg-gray-950 py-10 px-4 pb-20'>
+    <div className='flex justify-center items-center min-h-screen bg-gray-950 py-6 sm:py-10 px-3 sm:px-4 pb-24 md:pb-20'>
       <div className='w-full max-w-md'>
-        <div className="bg-gray-950 border border-gray-800 rounded-2xl p-8 shadow-2xl">
-          <h2 className="text-white text-2xl font-bold text-center mb-6">Edit Profile</h2>
+        <div className="bg-gray-950 border border-gray-800 rounded-2xl p-5 sm:p-8 shadow-2xl">
+          <h2 className="text-white text-xl sm:text-2xl font-bold text-center mb-4 sm:mb-6">Edit Profile</h2>
           
           {/* Profile Picture Upload */}
           <div className="flex justify-center mb-6">

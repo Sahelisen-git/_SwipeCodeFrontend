@@ -28,7 +28,7 @@ const Usercard = ({ user }) => {
     : [];
 
   return (
-    <div className="bg-gray-900 border border-gray-800 rounded-2xl overflow-hidden shadow-2xl w-[340px] max-w-full">
+    <div className="bg-gray-900 border border-gray-800 rounded-2xl overflow-hidden shadow-2xl w-full max-w-[340px]">
       {/* Profile Image */}
       <div className="relative aspect-square overflow-hidden">
         <img

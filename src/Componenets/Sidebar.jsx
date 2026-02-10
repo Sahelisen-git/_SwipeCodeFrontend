@@ -44,7 +44,7 @@ const Sidebar = () => {
   ];
 
   return (
-    <aside className={`${isCollapsed ? 'w-16' : 'w-56'} bg-gray-900 border-r border-gray-800 flex flex-col min-h-[calc(100vh-65px)] sticky top-0 transition-all duration-300`}>
+    <aside className={`${isCollapsed ? 'w-16' : 'w-56'} bg-gray-900 border-r border-gray-800 hidden md:flex flex-col min-h-[calc(100vh-65px)] sticky top-0 transition-all duration-300`}>
       {/* Collapse Button */}
       <div className={`p-3 border-b border-gray-800 ${isCollapsed ? 'flex flex-col items-center gap-2' : ''}`}>
         <button 

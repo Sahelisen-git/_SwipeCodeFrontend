@@ -40,8 +40,8 @@ const NavBar = () => {
       </div>
       <div className="flex gap-2">
         {user && (
-          <div className="dropdown dropdown-end mx-2 flex items-center">
-            <p className="px-4 py-2 text-gray-300">Welcome, {user.firstName}</p>
+          <div className="dropdown dropdown-end mx-1 sm:mx-2 flex items-center">
+            <p className="hidden sm:block px-4 py-2 text-gray-300">Welcome, {user.firstName}</p>
             <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
               <div className="w-10 rounded-full ring-2 ring-gray-700">
                 <img
