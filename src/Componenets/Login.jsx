@@ -8,8 +8,8 @@ import { BASE_URL } from '../utils/Constants';
 
 const Login = () => {
 
-    const [emailId, setEmailId] = React.useState('Karsanhita@gmail.com'); //emailid feild to set a state and usesate hook
-    const [password, setPassword] = React.useState('Karsan!k234'); //password feild to set a state and usesate hook
+    const [emailId, setEmailId] = React.useState(''); //emailid field to set a state and useState hook
+    const [password, setPassword] = React.useState(''); //password field to set a state and useState hook
       const [error, setError] = React.useState(""); //to show error message
       const [showPassword, setShowPassword] = React.useState(false); // show/hide password
     const dispatch = useDispatch();
